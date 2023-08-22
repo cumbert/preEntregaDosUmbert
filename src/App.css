@@ -36,3 +36,82 @@
     transform: rotate(360deg);
   }
 }
+
+ 
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-inline: 10%;
+}
+.header .logo {
+  padding-right: 2rem;
+  padding-top: 2rem;
+  width: 18%;
+  justify-content: center;
+}
+.header .logo img {
+  width: 100%;
+}
+.header .nav {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+.header .nav ul {
+  list-style-type: none;
+  display: inline-block;
+}
+.header .nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+.header .nav ul li .boton-menu {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  gap: 1rem;
+  font-weight: 600;
+  padding: 1rem;
+  font-size: 0.85rem;
+}
+.header .nav ul li .boton-menu.active {
+  background-color: black;
+  color: white;
+}
+.header .login_buy {
+  display: flex;
+  align-items: center;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  width: 20%;
+  position: absotule;
+  position: relative;
+  display: inline-block;
+}
+.header .login_buy .cart-container {
+  display: flex;
+  align-items: flex-start; /* Alinea elementos verticalmente en la parte superior */
+}
+.header .login_buy .cart-container #carrito-icon {
+  margin-top: 2.2rem; /* Ajusta la posición vertical del ícono */
+  margin-left: 1rem;
+  width: 4rem;
+}
+.header .login_buy .cart-container .numerito {
+  position: absolute;
+  top: 45px;
+  margin-left: 5px; /* Ajusta el espacio entre el ícono y el número */
+  right: 140px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
