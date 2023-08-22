@@ -4,10 +4,8 @@ import './NavBar.css';
 const NavBar = ({text}) => {
 
   return (
-    <div>
-   
-        <button class="boton-menu boton-categoria active" >{text}</button>       
-    
+    <div>   
+        <button className ="boton-menu boton-categoria" >{text}</button>           
     </div>
   )
 }

@@ -54,30 +54,9 @@
 .header .logo img {
   width: 100%;
 }
-.header .nav {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  text-align: center;
-}
-.header .nav ul {
-  list-style-type: none;
-  display: inline-block;
-}
-.header .nav ul li {
-  display: inline;
-  margin: 0 10px;
-}
-.header .nav ul li .boton-menu {
-  background-color: transparent;
-  border: 0;
-  cursor: pointer;
-  gap: 1rem;
-  font-weight: 600;
-  padding: 1rem;
-  font-size: 0.85rem;
-}
-.header .nav ul li .boton-menu.active {
+
+
+.boton-menu.active {
   background-color: black;
   color: white;
 }
@@ -86,7 +65,7 @@
   align-items: center;
   padding-right: 2rem;
   padding-left: 2rem;
-  width: 20%;
+  width: 15%;
   position: absotule;
   position: relative;
   display: inline-block;
@@ -96,15 +75,15 @@
   align-items: flex-start; /* Alinea elementos verticalmente en la parte superior */
 }
 .header .login_buy .cart-container #carrito-icon {
-  margin-top: 2.2rem; /* Ajusta la posición vertical del ícono */
+  margin-top: 1rem; /* Ajusta la posición vertical del ícono */
   margin-left: 1rem;
   width: 4rem;
 }
 .header .login_buy .cart-container .numerito {
   position: absolute;
-  top: 45px;
+  top: 25px;
   margin-left: 5px; /* Ajusta el espacio entre el ícono y el número */
-  right: 140px;
+  right: 100px;
   background-color: red;
   color: white;
   border-radius: 50%;

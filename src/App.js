@@ -15,7 +15,7 @@ function App() {
           <img src={ravennaJeans_logo} alt="ravenna_jeans_logo" />
         </div>
         <div class="nav">
-          <Navbar text='HOME' />
+          <Navbar text='HOME'/>
           <Navbar text='JEANS' />
           <Navbar text='REMERAS' />
           <Navbar text='CAMISAS' />
