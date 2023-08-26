@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  align-items: center; /* Alinear verticalmente al centro */
+  justify-content: space-between; /* Distribuir elementos en el espacio restante */
+  padding: 20px; /* Añadir espaciado si es necesario */
+}
+
+.menu-botones {
+  display: flex; /* Aplicar flexbox a los botones del menú */
+  gap: 5px; /* Espacio entre los botones */
+}
+
+.boton-menu {
+  list-style-type: none;
+  display: inline-block;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;  
+  font-weight: 600;
+  padding: 1rem;
+  font-size: 0.85rem;
+  margin-left: 2.5rem;
+}
+
+.boton-menu.active {
+  background-color: black;
+  color: white;
+
+}
+
+/*******IMAGEN****/
+
+
+.logo {
+  padding-top: 1rem;
+  width: 100%; /* Cambiar el valor para ajustar el tamaño deseado */
+  max-width: 200px; /* Agregar un máximo para evitar que el logo se agrande demasiado */
+  height: auto; /* Mantener la proporción del logo */
+  margin-left: 6rem;  
+}
