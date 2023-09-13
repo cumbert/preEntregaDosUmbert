@@ -1,0 +1,51 @@
+.CardItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0;
+  max-width: 100%;
+  height: 23rem;
+  position: relative;
+
+}
+
+.ItemImg {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+  
+}
+
+
+
+
+
+
+.contenedor-productos h2 {
+  padding-top: 0.6rem;
+  color: #777a7a;
+  font-size: 1.1rem;
+}
+
+.contenedor-productos h3 {
+  padding-top: 0.6rem;
+  padding-bottom: 1rem;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+.contenedor-productos .producto-agregar {
+  width: 6rem;
+  background-color: white;
+  color: black;
+  padding: 0.4rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid gray;
+  transition: backgroun-color 0.2s, color 0.2s;
+}
+
+.contenedor-productos .producto-agregar:hover {
+  background-color: gray;
+  color: white;
+}

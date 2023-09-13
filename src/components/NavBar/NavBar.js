@@ -1,20 +1,27 @@
-import React from 'react';
+import './NavBar.css';
 import CartWidget from '../CartWidget/CartWidget';
 import logo from './assets/ravennaJeans.png';
-import './NavBar.css';
+import { NavLink, Link } from 'react-router-dom';
 
-const NavBar = ({ text }) => {
+
+const NavBar = () => {
 
   return (
     <nav className='navbar'>
-      <div>
-        <img className='logo' src={logo} alt="ravenna_jeans_logo" />
+      <div >
+        <Link to='/'>
+          <img className='logo' src={logo} alt="ravenna_jeans_logo" />
+        </Link>
       </div>
-      <div className='menu-botones'>
-        <button className="boton-menu active" >HOME</button>
-        <button className="boton-menu" >JEANS</button>
-        <button className="boton-menu" >REMERAS</button>
-        <button className="boton-menu" >CAMISAS</button>
+      <div className='Categories'>
+        {/* <button className="boton-menu active" >HOME</button> */}
+        <NavLink to={`/category/home`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'} />HOME<NavLink />
+        {/*         <button className="boton-menu" >JEANS</button>
+ */}        <NavLink to={`/category/pantalones`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'} />JEANS<NavLink />
+        {/*         <button className="boton-menu" >REMERAS</button>
+ */}        <NavLink to={`/category/remeras`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'} />REMERAS<NavLink />
+        {/*         <button className="boton-menu" >CAMISAS</button>
+ */}        <NavLink to={`/category/camisas`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'} />CAMISAS<NavLink />
       </div>
 
       <CartWidget />

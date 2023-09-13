@@ -5,24 +5,28 @@
   padding: 20px; /* Añadir espaciado si es necesario */
 }
 
-.menu-botones {
+.Categories {
   display: flex; /* Aplicar flexbox a los botones del menú */
-  gap: 5px; /* Espacio entre los botones */
+  gap: 30px; /* Espacio entre los botones */
+  background-color: transparent;
 }
 
-.boton-menu {
+.Option {
   list-style-type: none;
+ 
+  /*
   display: inline-block;
-  background-color: transparent;
+   
+  
   border: 0;
   cursor: pointer;  
   font-weight: 600;
   padding: 1rem;
-  font-size: 0.85rem;
-  margin-left: 2.5rem;
+  font-size: 3rem;
+  margin-left: 2.5rem; */
 }
 
-.boton-menu.active {
+.ActiveOption {
   background-color: black;
   color: white;
 
