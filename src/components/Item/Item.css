@@ -10,26 +10,24 @@
 }
 
 .ItemImg {
- width: 100%;
- height: 100%;
- object-fit: cover;
-  
+ width: 20rem; 
+ object-fit: cover;  
 }
 
-
-
-
-
-
-.contenedor-productos h2 {
+.ItemHeader {
   padding-top: 0.6rem;
   color: #777a7a;
   font-size: 1.1rem;
 }
 
-.contenedor-productos h3 {
-  padding-top: 0.6rem;
-  padding-bottom: 1rem;
+section{
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.Info {    
   font-weight: 300;
   font-size: 1.1rem;
 }

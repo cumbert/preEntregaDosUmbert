@@ -1,35 +1,32 @@
 .navbar {
   display: flex;
-  align-items: center; /* Alinear verticalmente al centro */
-  justify-content: space-between; /* Distribuir elementos en el espacio restante */
-  padding: 20px; /* Añadir espaciado si es necesario */
+  align-items: center;  
+  justify-content: space-between;  
+  padding: 17px;  
 }
 
 .Categories {
-  display: flex; /* Aplicar flexbox a los botones del menú */
-  gap: 30px; /* Espacio entre los botones */
+  display: flex;  
+  gap: 25px;  
   background-color: transparent;
+
 }
 
 .Option {
-  list-style-type: none;
- 
-  /*
-  display: inline-block;
-   
-  
-  border: 0;
-  cursor: pointer;  
-  font-weight: 600;
+  color: #333;
+  text-decoration: none;
+  margin-right: 20px;
   padding: 1rem;
-  font-size: 3rem;
-  margin-left: 2.5rem; */
+
 }
 
 .ActiveOption {
+  color: white;  
+  text-decoration: none;
   background-color: black;
-  color: white;
+  padding: 1rem;
 
+  
 }
 
 /*******IMAGEN****/
@@ -37,8 +34,8 @@
 
 .logo {
   padding-top: 1rem;
-  width: 100%; /* Cambiar el valor para ajustar el tamaño deseado */
-  max-width: 200px; /* Agregar un máximo para evitar que el logo se agrande demasiado */
-  height: auto; /* Mantener la proporción del logo */
-  margin-left: 6rem;  
+  width: 100%; 
+  max-width: 200px;  
+  height: auto;  
+  margin-left: 6rem;
 }

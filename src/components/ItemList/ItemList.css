@@ -1,7 +1,7 @@
 .ListGroup {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-top: 4rem; 
-    
+    padding-top: 2rem; 
+    margin-inline: 7rem;
 
 }

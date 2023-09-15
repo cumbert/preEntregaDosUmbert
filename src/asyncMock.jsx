@@ -1,22 +1,22 @@
 const products = [
 
     {
-        id: "1",
-        titulo: "Pantalón 01",
-        imagen: "../img/pantalon_01.jpg",
-        category:"pantalones",    
+        id: '1',
+        titulo: 'Pantalón 01',
+        imagen: '../img/pantalon_01.jpg',
+        category:'pantalones',    
         precio: 10000,
         stock: 100,
-        descripcion:"fdfafdfdada"
+        descripcion:'fdfafdfdada'
     },
     {
-        id: "2",
-        titulo: "Pantalón 02",
-        imagen: "../img/pantalon_02.jpg",
-        category:"pantalones",
+        id: '2',
+        titulo: 'Pantalón 02',
+        imagen: '../img/pantalon_02.jpg',
+        category:'pantalones',
         precio: 10000,
         stock: 200,
-        descripcion:"fdfafdfdada"
+        descripcion:'fdfafdfdada'
     },
     {
         id: "3",

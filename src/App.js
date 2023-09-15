@@ -6,8 +6,6 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 
 
 function App() {
-
-
   return (
     <div className="App">
       <BrowserRouter>

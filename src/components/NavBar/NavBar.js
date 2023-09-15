@@ -13,19 +13,13 @@ const NavBar = () => {
           <img className='logo' src={logo} alt="ravenna_jeans_logo" />
         </Link>
       </div>
-      <div className='Categories'>
-        {/* <button className="boton-menu active" >HOME</button> */}
-        <NavLink to={`/category/home`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'} />HOME<NavLink />
-        {/*         <button className="boton-menu" >JEANS</button>
- */}        <NavLink to={`/category/pantalones`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'} />JEANS<NavLink />
-        {/*         <button className="boton-menu" >REMERAS</button>
- */}        <NavLink to={`/category/remeras`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'} />REMERAS<NavLink />
-        {/*         <button className="boton-menu" >CAMISAS</button>
- */}        <NavLink to={`/category/camisas`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'} />CAMISAS<NavLink />
+      <div className='Categories'>        
+        <NavLink to={`/categoria/home`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>HOME</NavLink>        
+        <NavLink to={`/categoria/pantalones`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'} >JEANS</NavLink> 
+        <NavLink to={`/categoria/remeras`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'} >REMERAS</NavLink>        
+        <NavLink to={`/categoria/camisas`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'} >CAMISAS</NavLink>
       </div>
-
       <CartWidget />
-
     </nav>
   )
 }
