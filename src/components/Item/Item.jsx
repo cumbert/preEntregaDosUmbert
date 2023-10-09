@@ -6,15 +6,13 @@ const Item = ({ id, titulo, imagen, precio, stock }) => {
 
     return (
         <article className="CardItem">
-            <header className='Header'>
-                <h2 className='ItemHeader'>
-                    {titulo}
-                </h2>
-            </header>
             <picture>
                 <img src={imagen} alt={titulo} className='ItemImg' />
             </picture>
             <section>
+                <h2 className='ItemHeader'>
+                    {titulo}
+                </h2>
                 <p className='Info'>
                     Precio: ${precio}
                 </p>
@@ -24,7 +22,7 @@ const Item = ({ id, titulo, imagen, precio, stock }) => {
             </section>
             <footer className='ItemFooter'>
                 <Link to={`/item/${id}`} className='Option'>Ver detalle</Link>
-            </footer>           
+            </footer>
         </article>
 
     )

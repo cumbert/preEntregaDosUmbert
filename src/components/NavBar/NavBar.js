@@ -6,7 +6,7 @@ import { NavLink, Link } from 'react-router-dom';
 
 const NavBar = () => {
 
-  return (
+  return (   
     <nav className='navbar'>
       <div >
         <Link to='/'>
@@ -14,8 +14,8 @@ const NavBar = () => {
         </Link>
       </div>
       <div className='Categories'>        
-        <NavLink to={`/categoria/home`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>HOME</NavLink>        
-        <NavLink to={`/categoria/pantalones`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'} >JEANS</NavLink> 
+        <NavLink to={`/`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>HOME</NavLink>        
+        <NavLink to={`/categoria/pantalones`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'} >PANTALONES</NavLink> 
         <NavLink to={`/categoria/remeras`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'} >REMERAS</NavLink>        
         <NavLink to={`/categoria/camisas`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'} >CAMISAS</NavLink>
       </div>
